@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(to bottom right, #e0e5ec, #f3f6f9);
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .shadow-neu {
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f3f6f9;
+  }
+
+  .shadow-neu-inset {
+    box-shadow: inset 4px 4px 8px #d1d9e6, inset -4px -4px 8px #f3f6f9;
+  }
+}
