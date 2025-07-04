@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { fetchStudents, deleteStudent } from '../redux/studentSlice';
+import { fetchStudents, deleteStudent } from '../redux/StudentSlice';
 
 const StudentList = () => {
   const dispatch = useDispatch();
